@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Feb. 25 2020</title>
+    <script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
+    <style>
+      text {
+        text-anchor: middle;
+        font-size: 24px;
+        stroke: black;
+        fill: red;
+      }
+
+      circle {
+        r: 5px;
+      }
+    </style>
+  </head>
+  <body style="display: flex; justify-content: center; align-content: center;">
+    <svg width="300" height="300" id="3dplot">
+      <path d="M 0,300 L 0,100 L 100,0 L 300,0" fill="none" stroke="gray" stroke-width="2px" stroke-dasharray="1,1" />
+      <path d="M 0,300 L 100,200 L 100,0 M 100,200 L 300,200" fill="none" stroke="gray" stroke-width="4px" />
+
+      <path d="M 0,300 L 200,300 L 300,200 L 300,0" fill="none" stroke="black" stroke-width="2px" stroke-dasharray="1,1" />
+    </svg>
+
+    <script src="chart.js"></script>
+  </body>
+</html>
